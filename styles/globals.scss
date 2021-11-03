@@ -1,0 +1,107 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
+}
+#__next {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+.clear-float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-size: 14px;
+    // font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    overflow: hidden;
+    overflow-x: auto;
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+    }
+
+    &::after {
+        font-family: element-icons !important;
+        content: "\e6e4";
+        left: calc(50% - 30px);
+        top: calc(50% - 80px);
+        font-size: 60px;
+        opacity: 0;
+    }
+
+    &::before,
+    &::after {
+        display: block;
+        position: fixed;
+        z-index: 999;
+        pointer-events: none;
+        transition: all 0.3s;
+    }
+
+    &[locked="true"] {
+        &::before {
+            pointer-events: all;
+            opacity: 1;
+        }
+
+        &::after {
+            content: "\e6e5";
+            animation: lockAnimation 1.5s backwards;
+        }
+
+        * {
+            pointer-events: none !important;
+        }
+
+        .page-lock-link {
+            pointer-events: all !important;
+            z-index: 9999;
+        }
+    }
+
+    &[locked="false"] {
+        &::after {
+            animation: unlockAnimation 1.5s backwards;
+        }
+    }
+}
+
+.scroll-control,
+body {
+    &::-webkit-scrollbar {
+        width: 14px;
+        height: 14px;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(113 122 143 / 40%);
+        border-radius: 10px;
+        border: 4.5px solid rgba(0, 0, 0, 0);
+        background-clip: padding-box;
+        opacity: 0.8;
+    }
+    &::-webkit-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
