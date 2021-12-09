@@ -105,3 +105,152 @@ body {
         background-color: rgba(0, 0, 0, 0);
     }
 }
+
+:root {
+    --main-background-color: rgba(245, 247, 250, 1);
+    --vice-background-color: rgba(255, 255, 255, 1);
+    --main-text-color: rgba(85, 85, 85, 1);
+    --vice-text-color: rgba(64, 158, 255, 1);
+    --buy-color: rgba(1, 195, 141, 1);
+    --sell-color: rgba(255, 39, 75, 1);
+    --common-danger: #f56c6c;
+    --common-success: #67c23a;
+    --common-warning: #e6a23c;
+    --common-info: #409eff;
+    --common-gray: #909399;
+
+    --vice-text-color-opacity-1: rgba(64, 158, 255, 0.1);
+    --main-text-color-opacity-1: rgba(85, 85, 85, 0.1);
+    --vice-background-color-opacity-1: rgba(255, 255, 255, 0.1);
+    --main-background-color-opacity-1: rgba(255, 255, 255, 0.1);
+    --sell-color-opacity-1: rgba(255, 39, 75, 0.1);
+    --buy-color-opacity-1: rgba(1, 195, 141, 0.1);
+
+    --vice-text-color-opacity-2: rgba(64, 158, 255, 0.2);
+    --main-text-color-opacity-2: rgba(85, 85, 85, 0.2);
+    --vice-background-color-opacity-2: rgba(255, 255, 255, 0.2);
+    --main-background-color-opacity-2: rgba(255, 255, 255, 0.2);
+    --sell-color-opacity-2: rgba(255, 39, 75, 0.2);
+    --buy-color-opacity-2: rgba(1, 195, 141, 0.2);
+
+    --vice-text-color-opacity-3: rgba(64, 158, 255, 0.3);
+    --main-text-color-opacity-3: rgba(85, 85, 85, 0.3);
+    --vice-background-color-opacity-3: rgba(255, 255, 255, 0.3);
+    --main-background-color-opacity-3: rgba(255, 255, 255, 0.3);
+    --sell-color-opacity-3: rgba(255, 39, 75, 0.3);
+    --buy-color-opacity-3: rgba(1, 195, 141, 0.3);
+
+    --vice-text-color-opacity-4: rgba(64, 158, 255, 0.4);
+    --main-text-color-opacity-4: rgba(85, 85, 85, 0.4);
+    --vice-background-color-opacity-4: rgba(255, 255, 255, 0.4);
+    --main-background-color-opacity-4: rgba(255, 255, 255, 0.4);
+    --sell-color-opacity-4: rgba(255, 39, 75, 0.4);
+    --buy-color-opacity-4: rgba(1, 195, 141, 0.4);
+
+    --vice-text-color-opacity-5: rgba(64, 158, 255, 0.5);
+    --main-text-color-opacity-5: rgba(85, 85, 85, 0.5);
+    --vice-background-color-opacity-5: rgba(255, 255, 255, 0.5);
+    --main-background-color-opacity-5: rgba(255, 255, 255, 0.5);
+    --sell-color-opacity-5: rgba(255, 39, 75, 0.5);
+    --buy-color-opacity-5: rgba(1, 195, 141, 0.5);
+
+    --vice-text-color-opacity-6: rgba(64, 158, 255, 0.6);
+    --main-text-color-opacity-6: rgba(85, 85, 85, 0.6);
+    --vice-background-color-opacity-6: rgba(255, 255, 255, 0.6);
+    --main-background-color-opacity-6: rgba(255, 255, 255, 0.6);
+    --sell-color-opacity-6: rgba(255, 39, 75, 0.6);
+    --buy-color-opacity-6: rgba(1, 195, 141, 0.6);
+
+    --vice-text-color-opacity-7: rgba(64, 158, 255, 0.7);
+    --main-text-color-opacity-7: rgba(85, 85, 85, 0.7);
+    --vice-background-color-opacity-7: rgba(255, 255, 255, 0.7);
+    --main-background-color-opacity-7: rgba(255, 255, 255, 0.7);
+    --sell-color-opacity-7: rgba(255, 39, 75, 0.7);
+    --buy-color-opacity-7: rgba(1, 195, 141, 0.7);
+
+    --vice-text-color-opacity-8: rgba(64, 158, 255, 0.8);
+    --main-text-color-opacity-8: rgba(85, 85, 85, 0.8);
+    --vice-background-color-opacity-8: rgba(255, 255, 255, 0.8);
+    --main-background-color-opacity-8: rgba(255, 255, 255, 0.8);
+    --sell-color-opacity-8: rgba(255, 39, 75, 0.8);
+    --buy-color-opacity-8: rgba(1, 195, 141, 0.8);
+
+    --buy-color-opacity-35: rgba(1, 195, 141, 0.35);
+    --sell-color-opacity-35: rgba(255, 39, 75, 0.35);
+    --buy-color-lighten-3: hsl(163.29999999999995, 99%, 50%);
+    --sell-color-lighten-3: hsl(350, 100%, 74.9%);
+}
+// :root {
+//     --main-background-color: rgba(45, 45, 45, 1);
+//     --vice-background-color: rgba(59, 59, 59, 1);
+//     --main-text-color: rgba(255, 255, 255, 1);
+//     --vice-text-color: rgba(218, 184, 102, 1);
+//     --buy-color: rgba(1, 195, 141, 1);
+//     --sell-color: rgba(255, 39, 75, 1);
+//     --common-danger: #f56c6c;
+//     --common-success: #67c23a;
+//     --common-warning: #e6a23c;
+//     --common-info: #409eff;
+//     --common-gray: #909399;
+
+//     --vice-text-color-opacity-1: rgba(218, 184, 102, 0.1);
+//     --main-text-color-opacity-1: rgba(255, 255, 255, 0.1);
+//     --vice-background-color-opacity-1: rgba(59, 59, 59, 0.1);
+//     --main-background-color-opacity-1: rgba(59, 59, 59, 0.1);
+//     --sell-color-opacity-1: rgba(255, 39, 75, 0.1);
+//     --buy-color-opacity-1: rgba(1, 195, 141, 0.1);
+
+//     --vice-text-color-opacity-2: rgba(218, 184, 102, 0.2);
+//     --main-text-color-opacity-2: rgba(255, 255, 255, 0.2);
+//     --vice-background-color-opacity-2: rgba(59, 59, 59, 0.2);
+//     --main-background-color-opacity-2: rgba(59, 59, 59, 0.2);
+//     --sell-color-opacity-2: rgba(255, 39, 75, 0.2);
+//     --buy-color-opacity-2: rgba(1, 195, 141, 0.2);
+
+//     --vice-text-color-opacity-3: rgba(218, 184, 102, 0.3);
+//     --main-text-color-opacity-3: rgba(255, 255, 255, 0.3);
+//     --vice-background-color-opacity-3: rgba(59, 59, 59, 0.3);
+//     --main-background-color-opacity-3: rgba(59, 59, 59, 0.3);
+//     --sell-color-opacity-3: rgba(255, 39, 75, 0.3);
+//     --buy-color-opacity-3: rgba(1, 195, 141, 0.3);
+
+//     --vice-text-color-opacity-4: rgba(218, 184, 102, 0.4);
+//     --main-text-color-opacity-4: rgba(255, 255, 255, 0.4);
+//     --vice-background-color-opacity-4: rgba(59, 59, 59, 0.4);
+//     --main-background-color-opacity-4: rgba(59, 59, 59, 0.4);
+//     --sell-color-opacity-4: rgba(255, 39, 75, 0.4);
+//     --buy-color-opacity-4: rgba(1, 195, 141, 0.4);
+
+//     --vice-text-color-opacity-5: rgba(218, 184, 102, 0.5);
+//     --main-text-color-opacity-5: rgba(255, 255, 255, 0.5);
+//     --vice-background-color-opacity-5: rgba(59, 59, 59, 0.5);
+//     --main-background-color-opacity-5: rgba(59, 59, 59, 0.5);
+//     --sell-color-opacity-5: rgba(255, 39, 75, 0.5);
+//     --buy-color-opacity-5: rgba(1, 195, 141, 0.5);
+
+//     --vice-text-color-opacity-6: rgba(218, 184, 102, 0.6);
+//     --main-text-color-opacity-6: rgba(255, 255, 255, 0.6);
+//     --vice-background-color-opacity-6: rgba(59, 59, 59, 0.6);
+//     --main-background-color-opacity-6: rgba(59, 59, 59, 0.6);
+//     --sell-color-opacity-6: rgba(255, 39, 75, 0.6);
+//     --buy-color-opacity-6: rgba(1, 195, 141, 0.6);
+
+//     --vice-text-color-opacity-7: rgba(218, 184, 102, 0.7);
+//     --main-text-color-opacity-7: rgba(255, 255, 255, 0.7);
+//     --vice-background-color-opacity-7: rgba(59, 59, 59, 0.7);
+//     --main-background-color-opacity-7: rgba(59, 59, 59, 0.7);
+//     --sell-color-opacity-7: rgba(255, 39, 75, 0.7);
+//     --buy-color-opacity-7: rgba(1, 195, 141, 0.7);
+
+//     --vice-text-color-opacity-8: rgba(218, 184, 102, 0.8);
+//     --main-text-color-opacity-8: rgba(255, 255, 255, 0.8);
+//     --vice-background-color-opacity-8: rgba(59, 59, 59, 0.8);
+//     --main-background-color-opacity-8: rgba(59, 59, 59, 0.8);
+//     --sell-color-opacity-8: rgba(255, 39, 75, 0.8);
+//     --buy-color-opacity-8: rgba(1, 195, 141, 0.8);
+
+//     --buy-color-opacity-35: rgba(1, 195, 141, 0.35);
+//     --sell-color-opacity-35: rgba(255, 39, 75, 0.35);
+//     --buy-color-lighten-3: hsl(163.29999999999995, 99%, 50%);
+//     --sell-color-lighten-3: hsl(350, 100%, 74.9%);
+// }

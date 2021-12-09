@@ -3,7 +3,6 @@ import { useState } from "react";
 import { SettingOutlined } from "@ant-design/icons";
 import { Layout } from "antd";
 import ThemeList from "@/components/themeList/themeList";
-import { useDispatch, useSelector } from "react-redux";
 
 const { Header, Footer, Sider, Content } = Layout;
 

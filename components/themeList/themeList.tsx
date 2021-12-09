@@ -28,6 +28,7 @@ const ThemeList = (props: any) => {
         </ul>
     );
 }
+
 interface Color {
     main: RgbaColor,
     vice?: RgbaColor,

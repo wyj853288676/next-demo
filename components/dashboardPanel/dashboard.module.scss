@@ -1,0 +1,30 @@
+.dashboard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+}
+
+.dashboard-panel {
+    display: block;
+    padding: 2px;
+    transition: all 0.3s;
+    animation: dashboardFadeIn 0.5s;
+    &[status="0"] {
+        cursor: pointer;
+    }
+}
+
+.dashboard-panel-content {
+    border: 1px dashed #ccc;
+    min-height: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    &:hover {
+        border-color: var(--vice-text-color);
+        color: var(--vice-text-color);
+    }
+}
